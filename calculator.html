@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CSS/normalize.css" rel="stylesheet">
+    <link href="CSS/calculator.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script defer src="js/calculator.js"></script>
+</head>
+
+<body>
+    <form class="form js-form">
+        <fieldset class="form__fieldset">
+            <h1>Currency Calculator</h1>
+            <p>
+                <label>Amount in PLN:</label>
+                <input class="js-amount" name="AmountPLN" type="number" step="0.01" min="0.01"
+                    placeholder="Type an amount" required>
+                </label>
+            </p>
+            <p>
+                <label>Select a currency:
+                </label>
+                <select class="js-currency" name="SelectCurrency:">
+                    <option value="USD">USD</option>
+                    <option value="EUR" selected>EUR</option>
+                </select>
+                </label>
+            </p>
+            <p>Exchange rate is:<strong class="js-result"></strong></p>
+            <button class="form__button">
+                Calculate!
+            </button>
+            <p>The calculator is based on data from August 27, 2023.</p>
+        </fieldset>
+    </form>
+</body>

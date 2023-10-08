@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after ::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #4264c7d6;
+  background-image: url("../images/currencyCalculator.png");
+  background-repeat: no-repeat;
+  background-size: 2200px auto;
+}
+
+form {
+  margin-top: 200px;
+}
+
+.form__fieldset {
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 5px 10px 5px rgb(45, 88, 219);
+  max-width: 400px;
+  width: 100%;
+  display: inline-block;
+  font-style: normal;
+  line-height: 1.5;
+  font-family: "Lato", sans-serif;
+  color: royalblue;
+  padding: 20px 20px 20px 20px;
+  background-color: white;
+  border-color: white;
+  text-align: center;
+}
+
+.form__button {
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 100%;
+  font-style: normal;
+  line-height: 1.5;
+  font-family: "Lato", sans-serif;
+  color: white;
+  padding: 20px 20px 20px 20px;
+  background-color: #003bed;
+  border-color: royalblue;
+}
