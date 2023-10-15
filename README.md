@@ -6,7 +6,7 @@ The currency calculator allows you to convert PLN exchange rates for EUR and USD
 I am preparing the project as part of the YouCode coding school.
 
 # demo
-
+[Currency calculator](https://katarzynadworak.github.io/currency-calculator/)
 
 # Technologies used:
 - HTML
