@@ -1,4 +1,4 @@
-# Currency-calculator
+# Project description
 
 [GIF](https://media.giphy.com/media/QBOgENZznnLJJJ3ATK/giphy.gif)
 
