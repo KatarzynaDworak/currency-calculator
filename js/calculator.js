@@ -1,5 +1,4 @@
 
-{
     const calculateResult = (amount, currency) => {
         switch (currency) {
             case "EUR":
@@ -7,18 +6,15 @@
             case "USD":
                 return amount / USD;
             }
-
             const EUR = 4.47;
             const USD = 4.14;
-    
-        }
-    }
+    }      
     
     const updateResultText = (amount, result, currency) => {
         const resultElement = document.querySelector(".js-result");
         resultElement.innerHTML = `${amount.toFixed(2)} PLN = <strong> 
         ${result.toFixed(2)} ${currency}</strong>`;
-        }
+    }
     
     const onFormSubmit = (event) => {
         event.preventDefault();
@@ -38,5 +34,5 @@
 
         formElement.addEventListener("submit", onFormSubmit);
     }
-}
+    }
     init();
