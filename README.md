@@ -1,6 +1,4 @@
 # Project description
-![GIF]([https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2FyYjY4ZHptNWlyN2ZlYmd6bTFvZXo2cjRsaHR5NnRsdGVjbHJyayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/h9JmLwNh7VGPwU34lI/giphy.gif])
-
 ![GIF](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmdiMzVtaXB2cXJ1cXpoOHZydzdqYXk0OXBkcTl3MmR6cWtmeXFzaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/01iUqhuV0KdqV47AyD/giphy.gif))
 
 The currency calculator allows you to convert PLN exchange rates for EUR and USD currencies.
